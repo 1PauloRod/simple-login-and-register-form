@@ -1,2 +1,2 @@
-# simple-login-and-register-form
+# Simple login and register form
 A simple and modern design of login and registration pages.
