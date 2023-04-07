@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: rgb(22, 22, 64);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main-content{
+    position: absolute;
+    display: flex;
+    left: 45%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;    
+    box-shadow: inset 5em 1em gold;
+}
+
+
+
+.right-content{
+    margin-top: 5%;
+    margin-left: 1em;   
+}
+
+.right-content h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(170, 170, 176);
+    text-transform: uppercase;
+}
+
+.textfield input{
+    margin-top: 1em;
+    background-color: rgb(22, 22, 64);
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid;
+    border-left: none;
+    border-color: gold;
+    width: 15em;
+    outline: none;
+    color: white;
+}
+
+.textfield input:placeholder{
+    color:
+
+}
+
+.right-content p{
+    font-size: 14px;
+    color: rgb(170, 170, 176);
+}
+
+.right-content p a{
+    font-size: 14px;
+    color: rgb(182, 155, 6);
+    text-decoration: none;
+}
+
+.right-content button{
+    margin-left: 50%;
+    padding: 0.7em;
+    margin-top: 1.5em;
+    transform: translate(-50%, 0);
+    width: 5em;
+    text-transform: uppercase;
+    font-weight: 800;
+    background-color: gold;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 15px;
+}
+
+.right-content button:hover{
+    cursor: pointer;
+    background-color: black;
+    border-color: gold;
+    color: gold;
+    width: 6em;
+}
+
+.main-image img{
+    width: 400px;
+}
+
+
+.divide-lines{
+    margin-left: 36%;
+}
+
+.divide-lines p:before, 
+.divide-lines p:after{
+    background-color: gold;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 65%;
+}
+
+.divide-lines p:before {
+    right: 0.5em;
+    margin-left: -50%;
+  }
+  
+.divide-lines p:after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
+
+.social-media a img{
+    width: 30px;
+    margin-right: 15px;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}

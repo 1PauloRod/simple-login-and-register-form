@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: rgb(22, 22, 64);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.list-header ul{
+    display: flex;
+    flex-direction:  row;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-header ul li{
+    margin-right: 3em;
+    margin-top: 3em;
+    list-style: none;
+}
+
+.list-header ul li  a{
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.main-content{
+    position: absolute;
+    display: flex;
+    left: 45%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1%;
+    border-radius: 15px;    
+    box-shadow: inset 5em 1em gold;
+}
+
+
+
+.right-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(170, 170, 176);
+
+}
+
+.right-content h1{
+    font-size: 80px;
+}
+
+.right-content p{
+    font-size: 22px;
+}
+
+.main-image img{
+    width: 650px;
+}
+
+.button-submit{
+    padding-top: 2em;
+    width: 100%;
+    height: 10%;
+    
+}   
+
+.button-submit button{
+    width: 60%;
+    height: 100%;
+    background-color: gold;
+    border: 1px solid;
+    border-color: rgb(0, 0, 0);
+    font-weight: 800;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.button-submit button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: gold;
+    border-color: gold;
+}
+
+.selected-list a{
+    background: gold;
+    padding: 10%;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: black;
+    color: black;
+}
+
+.no-selected-list a{
+    color: rgb(170, 170, 176);
+}
+
+
+
