@@ -1,0 +1,128 @@
+body{
+    
+    background: linear-gradient(90deg, rgb(64, 3, 85), black);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.card-register{
+    position: absolute;
+    width: 30em;
+    height: 40em;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(0, 0, 0);
+    border-radius: 15px;
+    border: 1px solid;
+    border-color: blueviolet;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;;
+}
+
+
+.card-register h1{
+    color: white;
+}
+
+.logo-register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-register img{
+    width: 100px;
+}
+
+.input-register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-register h1{
+    color: rgb(148, 130, 238);
+    text-transform: uppercase;
+}
+
+.textfield-register{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5em;
+}
+
+.name-last-name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1em;
+}
+
+.name-register{
+    margin-right: 1.5em;
+}
+
+.textfield-register input{
+    margin-top: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(to right, rgb(106, 4, 106) 25%, rgb(66, 76, 116)) 1;
+    background-color: black;
+    color: violet;
+    outline: none;
+}
+
+.textfield-register input::placeholder{
+    color: rgb(148, 130, 238);
+}
+
+.button-register button{
+    font-weight: 800;
+    margin-top: 1.5em;
+    text-transform: uppercase;
+    border-radius: 15px;
+    border: 1px solid;
+    border-color: rgb(62, 3, 91);
+    background: linear-gradient(to right, white, blueviolet);
+    color: black;
+
+}
+
+.button-register button:hover{
+    background: linear-gradient(to right, blueviolet, black);
+    color: rgb(158, 146, 146);
+    border-color: white;
+    cursor: pointer;
+    box-shadow: 0px 0px 12px 0px rgb(244, 106, 244);
+}
+
+.social-media p{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5em;
+    color: rgb(148, 130, 238);
+}
+
+.social-media ul{
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    justify-content: center;
+}
+
+.social-media ul li{
+    margin-top: 1em;
+    margin-right: 2em;
+}
+
+.social-media ul li img{
+    width: 35px;
+}
+
+.radio-button{
+    color: rgb(148, 130, 238);
+    margin-top: 1.5em;
+}
